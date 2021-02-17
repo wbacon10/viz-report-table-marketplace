@@ -213,6 +213,16 @@ const buildReportTable = function(config, dataTable, updateColumnOrder, element)
       .style('font-size', config.bodyFontSize + 'px')
       .attr('class', d => {
         var classes = ['reportTable']
+
+        if (d.html) {
+          var parser = new DOMParser()
+          var parsed_html = parser.parseFromString(d.html, 'text/html')
+          var spans = parsed_html.documentElement.getElementsByTagName('span')
+          var spanClasses = Array.from(spans).map(span => span.className)
+          
+          classes = classes.concat(spanClasses)
+        }
+
         if (typeof d.value === 'object') { classes.push('cellSeries') }
         if (typeof d.align !== 'undefined') { classes.push(d.align) }
         if (typeof d.cell_style !== 'undefined') { classes = classes.concat(d.cell_style) }

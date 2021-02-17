@@ -46,15 +46,18 @@
 
 .reportTable {
   font-family: Open Sans,Helvetica,Arial,Noto Sans TC, Noto Sans SC,sans-serif;
-  border-collapse: separate;
+  border-collapse:collapse;
   border-spacing: 3px;
   table-layout: fixed;
+  padding: 3px;
 }
 
 th.headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   padding: 5px;
+  background-color: #4285F4 !important;
+  color: #FFFFFF !important;
 }
 
 .headerCell.merged {
@@ -118,6 +121,22 @@ th.headerCell {
 .total {
   border-top: 2px solid #000000;
   font-weight: bold !important;
+}
+
+.metric1 {
+  border-top: 2px solid #000000;
+  font-weight: bold !important;
+}
+
+.metric2 {
+  border-top: 1px solid #000000;
+  font-style: italic;
+}
+
+.colTotal {
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    background-color: #E8EAED;
 }
 
 .total.transposed {
