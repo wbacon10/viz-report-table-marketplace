@@ -3,6 +3,7 @@ import * as d3 from './d3loader'
 
 const themes = {
   traditional: require('./theme_traditional.css'),
+  google: require('./theme_google.css'),
   looker: require('./theme_looker.css'),
   contemporary: require('./theme_contemporary.css'),
 

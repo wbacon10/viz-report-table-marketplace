@@ -23,6 +23,7 @@ const tableModelCoreOptions = {
       { 'Traditional': 'traditional' },
       { 'Looker': 'looker' },
       { 'Contemporary': 'contemporary' },
+      { 'Google': 'google' },
       { 'Use custom theme': 'custom'}
     ],
     default: "traditional",
@@ -2005,7 +2006,7 @@ class VisPluginTableModel {
   }
 
   validateConfig() {
-    if (!['traditional', 'looker', 'contemporary', 'custom'].includes(this.config.theme)) {
+    if (!['traditional', 'looker', 'contemporary', 'google', 'custom'].includes(this.config.theme)) {
       this.config.theme = 'traditional'
     }
 
