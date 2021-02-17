@@ -41,7 +41,7 @@
 }
 
 .hover {
-  background-color: #ffffbb;
+  background-color: #D2E3FC;
 }
 
 .reportTable {
@@ -59,12 +59,14 @@ th.headerCell {
 
 .headerCell.merged {
   text-align: center !important;
-  background-color: #ffffff !important;
+  background-color: #4285F4 !important;
+  color: #FFFFFF !important;
 }
 
 .headerCell.transposed.dimension.merged {
   text-align: center !important;
-  background-color: #ffffff !important;
+  background-color: #4285F4 !important;
+  color: #FFFFFF !important;
 }
 
 .indexCell.transposed {
