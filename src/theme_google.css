@@ -52,6 +52,10 @@
   padding: 3px;
 }
 
+#reportTable > tbody > tr:nth-child(even) {
+  background-color: #efefef;
+}
+
 th.headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
@@ -131,6 +135,10 @@ th.headerCell {
 .metric2 {
   border-top: 1px solid #000000;
   font-style: italic;
+}
+
+.divider {
+  border-bottom: 2px solid #000000;
 }
 
 .colTotal {
