@@ -55,8 +55,8 @@
 th.headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
-  background-color: #cccccc;
-  color: #000000;
+  background-color: #4285f4;
+  color: #ffffff;
 }
 
 .headerCell.merged {
