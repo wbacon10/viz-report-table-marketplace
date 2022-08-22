@@ -45,7 +45,6 @@
 
 .reportTable {
   font-family: Google Sans;
-  border-spacing: 3px;
   table-layout: fixed;
 }
 
@@ -84,7 +83,6 @@ th.headerCell {
 .rowCell {
   vertical-align: super;
   border-bottom: 2px solid #000000;
-  font-weight: bold !important;
 }
 
 .rowCell.merged {
