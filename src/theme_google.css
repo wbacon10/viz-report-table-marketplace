@@ -81,12 +81,13 @@ th.headerCell {
 
 .rowCell {
   vertical-align: super;
-  border-bottom: 2px solid #000000;
+  border-bottom: 1px solid #000000;
 }
 
 .rowCell.merged {
   background-color: #cccccc;
   border-bottom: 2px solid #000000;
+  font-weight: bold;
 }
 
 .rowCell.transposed.dimension.merged {
