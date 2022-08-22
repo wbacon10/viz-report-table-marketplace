@@ -47,7 +47,6 @@
   font-family: Google Sans;
   border-spacing: 3px;
   table-layout: fixed;
-  padding: 3px;
 }
 
 #reportTable > tbody > tr:nth-child(even) {
