@@ -156,7 +156,6 @@ th.headerCell {
 }
 
 .headerCell.animated {
-  border-bottom: 4px solid #ffffff;
   box-shadow: inset 0px -1px 0px 0px #000000 !important;
   font-weight: bold;
   box-sizing: border-box;
