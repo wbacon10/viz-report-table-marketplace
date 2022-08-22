@@ -93,6 +93,7 @@ th.headerCell {
 .rowCell.transposed.dimension.merged {
   background-color: #cccccc;
   border-bottom: 2px solid #000000;
+  font-weight: bold;
 }
 
 .nonNumeric {
