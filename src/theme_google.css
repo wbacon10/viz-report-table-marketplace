@@ -58,20 +58,20 @@ th.headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   padding: 5px;
-  background-color: #efefef;
-  color: #FFFFFF !important;
+  background-color: #cccccc;
+  color: #000000;
 }
 
 .headerCell.merged {
   text-align: center !important;
-  background-color: #efefef;
-  color: #FFFFFF !important;
+  background-color: #cccccc;
+  color: #000000;
 }
 
 .headerCell.transposed.dimension.merged {
   text-align: center !important;
-  background-color: #efefef;
-  color: #FFFFFF !important;
+  background-color: #cccccc;
+  color: #000000;
 }
 
 .indexCell.transposed {
@@ -87,9 +87,15 @@ th.headerCell {
 }
 
 .rowCell.merged {
+  background-color: #cccccc;
+  font-weight: bold !important;
+  border-bottom: 2px solid #000000;
 }
 
 .rowCell.transposed.dimension.merged {
+  background-color: #cccccc;
+  font-weight: bold !important;
+  border-bottom: 2px solid #000000;
 }
 
 .nonNumeric {
