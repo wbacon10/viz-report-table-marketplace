@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Noto Sans TC';
-  src: url('./fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.woff2') format('woff2')
+  font-family: 'Google Sans';
+  src: url('./GoogleSans.woff2') format('woff2')
 }
 @font-face {
   font-family: 'Noto Sans SC';
@@ -26,7 +26,7 @@
 }
 
 .tooltipTable {
-  font-family: Open Sans,Helvetica,Arial,sans-serif;
+  font-family: Google Sans;
   border: 0px;
   border-collapse: collapse;
   table-layout: auto;
@@ -44,7 +44,7 @@
 }
 
 .reportTable {
-  font-family: Open Sans,Helvetica,Arial,Noto Sans TC, Noto Sans SC,sans-serif;
+  font-family: Google Sans;
   border-spacing: 3px;
   table-layout: fixed;
   padding: 3px;
@@ -58,19 +58,19 @@ th.headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   padding: 5px;
-  background-color: #4285F4 !important;
+  background-color: #efefefff;
   color: #FFFFFF !important;
 }
 
 .headerCell.merged {
   text-align: center !important;
-  background-color: #4285F4 !important;
+  background-color: #efefefff;
   color: #FFFFFF !important;
 }
 
 .headerCell.transposed.dimension.merged {
   text-align: center !important;
-  background-color: #4285F4 !important;
+  background-color: #efefefff;
   color: #FFFFFF !important;
 }
 
