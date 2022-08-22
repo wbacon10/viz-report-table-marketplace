@@ -41,12 +41,10 @@
 }
 
 .hover {
-  background-color: #D2E3FC;
 }
 
 .reportTable {
   font-family: Open Sans,Helvetica,Arial,Noto Sans TC, Noto Sans SC,sans-serif;
-  border-collapse:collapse;
   border-spacing: 3px;
   table-layout: fixed;
   padding: 3px;
@@ -81,7 +79,6 @@ th.headerCell {
 }
 
 .indexCell.transposed.merged {
-  background-color: #ffffff !important;
 }
 
 .rowCell {
@@ -90,11 +87,9 @@ th.headerCell {
 }
 
 .rowCell.merged {
-  background-color: #ffffff !important;
 }
 
 .rowCell.transposed.dimension.merged {
-  background-color: #ffffff !important;
 }
 
 .nonNumeric {
