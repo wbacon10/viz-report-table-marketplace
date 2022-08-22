@@ -86,13 +86,11 @@ th.headerCell {
 
 .rowCell.merged {
   background-color: #cccccc;
-  font-weight: bold !important;
   border-bottom: 2px solid #000000;
 }
 
 .rowCell.transposed.dimension.merged {
   background-color: #cccccc;
-  font-weight: bold !important;
   border-bottom: 2px solid #000000;
 }
 
@@ -123,12 +121,10 @@ th.headerCell {
 
 .total {
   border-top: 2px solid #000000;
-  font-weight: bold !important;
 }
 
 .metric1 {
   border-top: 2px solid #000000;
-  font-weight: bold !important;
 }
 
 .metric2 {
@@ -151,7 +147,6 @@ th.headerCell {
 }
 
 .dimension.transposed {
-  font-weight: bold;
 }
 
 .rectElem.animated {
