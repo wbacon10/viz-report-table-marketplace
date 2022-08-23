@@ -206,7 +206,7 @@ const buildReportTable = function(config, dataTable, updateColumnOrder, element)
           text = d.value   
         }
         text = String(text)
-        return text ? text.replace('/[^\w ]/g', '-') : text  // prevents wrapping on minus sign / hyphen
+        return text ? text.replace(/[^\w ]/g, '-') : text  // prevents wrapping on minus sign / hyphen
       }) 
       .attr('rowspan', d => d.rowspan)
       .attr('colspan', d => d.colspan)
