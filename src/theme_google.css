@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @font-face {
   font-family: 'Google Sans';
   src: url('./GoogleSans.woff2') format('woff2')
