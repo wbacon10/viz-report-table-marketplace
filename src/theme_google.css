@@ -1,10 +1,6 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: 'Google Sans';
-  src: url('./GoogleSans.woff2') format('woff2')
-}
-@font-face {
   font-family: 'Noto Sans SC';
   src: url('./fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff2') format('woff2')
 }
@@ -22,13 +18,11 @@
     -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     pointer-events: none;
-    font-family: Arial;
     font-size: 12px;
     z-index: 2;
 }
 
 .tooltipTable {
-  font-family: Arial;
   border: 0px;
   border-collapse: collapse;
   table-layout: auto;
@@ -46,7 +40,6 @@
 }
 
 .reportTable {
-  font-family: Arial;
   table-layout: fixed;
 }
 
@@ -154,7 +147,6 @@ th.headerCell {
 }
 
 .rectElem.animated {
-  font-family: Open Sans,Helvetica,Arial,sans-serif;
 }
 
 .headerCell.animated {
