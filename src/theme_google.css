@@ -5,6 +5,10 @@
   src: url('./GoogleSans-Regular.ttf') format('truetype')
 }
 @font-face {
+  font-family: 'Google Sans Text';
+  src: url('./GoogleSansText-Regular.ttf') format('truetype')
+}
+@font-face {
   font-family: 'Noto Sans SC';
   src: url('./fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff2') format('woff2')
 }
@@ -28,7 +32,7 @@
 }
 
 .tooltipTable {
-  font-family: Google Sans;
+  font-family: Google Sans,Google Sans Text,Open Sans,Helvetica,Arial,sans-serif;
   border: 0px;
   border-collapse: collapse;
   table-layout: auto;
@@ -46,7 +50,7 @@
 }
 
 .reportTable {
-  font-family: Google Sans;
+  font-family: Google Sans,Google Sans Text,Open Sans,Helvetica,Arial,sans-serif;
   table-layout: fixed;
 }
 
