@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Google Sans';
-  src: url('./GoogleSans-Regular.ttf') format('ttf')
+  src: url('./GoogleSans-Regular.ttf') format('truetype')
 }
 @font-face {
   font-family: 'Noto Sans SC';
