@@ -57,20 +57,20 @@
 th.headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
-  background-color: #797979;
-  color: #ffffff;
+  background-color: #d1d1d1;
+  color: #000000;
 }
 
 .headerCell.merged {
   text-align: center !important;
-  background-color: #797979;
-  color: #ffffff;
+  background-color: #d1d1d1;
+  color: #000000;
 }
 
 .headerCell.transposed.dimension.merged {
   text-align: center !important;
-  background-color: #797979;
-  color: #ffffff;
+  background-color: #d1d1d1;
+  color: #000000;
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
 }
