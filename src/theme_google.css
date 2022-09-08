@@ -23,7 +23,7 @@
     border-radius: 4px;
     pointer-events: none;
     font-family: Arial;
-    font-size: 12px;
+    font-size: 18px;
     z-index: 2;
 }
 
@@ -32,12 +32,12 @@
   border: 0px;
   border-collapse: collapse;
   table-layout: auto;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .focus {
   font-weight: bold;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .hidden {
@@ -50,7 +50,7 @@
 .reportTable {
   font-family: Google Sans,Google Sans Text,Open Sans,Helvetica,Arial,sans-serif;
   table-layout: fixed;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 #reportTable > tbody > tr:nth-child(even) {
@@ -62,14 +62,14 @@ th.headerCell {
   font-weight: bold;
   background-color: #d1d1d1;
   color: #000000;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .headerCell.merged {
   text-align: center !important;
   background-color: #d1d1d1;
   color: #000000;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .headerCell.transposed.dimension.merged {
@@ -78,7 +78,7 @@ th.headerCell {
   color: #000000;
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .indexCell.transposed {
@@ -90,31 +90,31 @@ th.headerCell {
 .rowCell {
   vertical-align: super;
   border-bottom: 1px solid #000000;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .rowCell.merged {
   background-color: #cccccc;
   border-bottom: 2px solid #000000;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .rowCell.transposed.dimension.merged {
   background-color: #cccccc;
   border-bottom: 2px solid #000000;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .nonNumeric {
   text-align: left;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .numeric {
   text-align: right;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .negative {
@@ -155,7 +155,7 @@ th.headerCell {
     border-right: 1px solid #000000;
     border-left: 1px solid #000000;
     background-color: #E8EAED;
-  font-size: 11px;
+    font-size: 18px;
 }
 
 .total.transposed {
