@@ -57,19 +57,19 @@
 th.headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
-  background-color: #d1d1d1;
+  background-color: #ffffff;
   color: #000000;
 }
 
 .headerCell.merged {
   text-align: center !important;
-  background-color: #d1d1d1;
+  background-color: #ffffff;
   color: #000000;
 }
 
 .headerCell.transposed.dimension.merged {
   text-align: center !important;
-  background-color: #d1d1d1;
+  background-color: #ffffff;
   color: #000000;
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
