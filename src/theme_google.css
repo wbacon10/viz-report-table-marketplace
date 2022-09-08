@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: 'Google Sans';
-  size-adjust: 120%;
+  font-stretch: expanded;
   src: url('./GoogleSans-Regular.ttf') format('truetype')
 }
 @font-face {
   font-family: 'Google Sans Text';
-  size-adjust: 120%;
+  font-stretch: expanded;
   src: url('./GoogleSansText-Regular.ttf') format('truetype')
 }
 @font-face {
   font-family: 'Noto Sans SC';
-  size-adjust: 120%;
+  font-stretch: expanded;
   src: url('./fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff2') format('woff2')
 }
 
