@@ -32,10 +32,12 @@
   border: 0px;
   border-collapse: collapse;
   table-layout: auto;
+  font-size: 11px;
 }
 
 .focus {
   font-weight: bold;
+  font-size: 11px;
 }
 
 .hidden {
@@ -48,6 +50,7 @@
 .reportTable {
   font-family: Google Sans,Google Sans Text,Open Sans,Helvetica,Arial,sans-serif;
   table-layout: fixed;
+  font-size: 11px;
 }
 
 #reportTable > tbody > tr:nth-child(even) {
@@ -59,12 +62,14 @@ th.headerCell {
   font-weight: bold;
   background-color: #d1d1d1;
   color: #000000;
+  font-size: 11px;
 }
 
 .headerCell.merged {
   text-align: center !important;
   background-color: #d1d1d1;
   color: #000000;
+  font-size: 11px;
 }
 
 .headerCell.transposed.dimension.merged {
@@ -73,6 +78,7 @@ th.headerCell {
   color: #000000;
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
+  font-size: 11px;
 }
 
 .indexCell.transposed {
@@ -84,26 +90,31 @@ th.headerCell {
 .rowCell {
   vertical-align: super;
   border-bottom: 1px solid #000000;
+  font-size: 11px;
 }
 
 .rowCell.merged {
   background-color: #cccccc;
   border-bottom: 2px solid #000000;
   font-weight: bold;
+  font-size: 11px;
 }
 
 .rowCell.transposed.dimension.merged {
   background-color: #cccccc;
   border-bottom: 2px solid #000000;
   font-weight: bold;
+  font-size: 11px;
 }
 
 .nonNumeric {
   text-align: left;
+  font-size: 11px;
 }
 
 .numeric {
   text-align: right;
+  font-size: 11px;
 }
 
 .negative {
@@ -144,6 +155,7 @@ th.headerCell {
     border-right: 1px solid #000000;
     border-left: 1px solid #000000;
     background-color: #E8EAED;
+  font-size: 11px;
 }
 
 .total.transposed {
