@@ -96,7 +96,7 @@ th.headerCell {
   font-size: 18px;
 }
 
-.rowCell.last-of-type {
+.rowCell:last-of-type {
   border-bottom: 2px solid #000000;
 }
 
