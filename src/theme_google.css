@@ -96,6 +96,10 @@ th.headerCell {
   font-size: 18px;
 }
 
+.rowCell.last-of-type {
+  border-bottom: 2px solid #000000;
+}
+
 .rowCell.merged {
   background-color: #cccccc;
   border-bottom: 2px solid #000000;
