@@ -67,6 +67,7 @@ th.headerCell {
   background-color: #d1d1d1;
   color: #000000;
   font-size: 18px;
+  column-width: 200px;
 }
 
 .headerCell.merged {
@@ -74,6 +75,7 @@ th.headerCell {
   background-color: #d1d1d1;
   color: #000000;
   font-size: 18px;
+  column-width: 200px;
 }
 
 .headerCell.transposed.dimension.merged {
@@ -83,6 +85,7 @@ th.headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   font-size: 18px;
+  column-width: 200px;
 }
 
 .indexCell.transposed {
@@ -95,7 +98,7 @@ th.headerCell {
   vertical-align: super;
   border-bottom: 1px solid #000000;
   font-size: 18px;
-  column-width: auto;
+  column-width: 200px;
 }
 
 .rowCell.merged {
@@ -103,6 +106,7 @@ th.headerCell {
   border-bottom: 2px solid #000000;
   font-weight: bold;
   font-size: 18px;
+  column-width: 200px;
 }
 
 .rowCell.transposed.dimension.merged {
@@ -110,6 +114,7 @@ th.headerCell {
   border-bottom: 2px solid #000000;
   font-weight: bold;
   font-size: 18px;
+  column-width: 200px;
 }
 
 .nonNumeric {
