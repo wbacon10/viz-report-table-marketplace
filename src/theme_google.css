@@ -54,7 +54,7 @@
   font-family: Google Sans,Google Sans Text,Open Sans,Helvetica,Arial,sans-serif;
   table-layout: fixed;
   font-size: 18px;
-  column-width: auto;
+  column-width: 200px;
 }
 
 #reportTable > tbody > tr:nth-child(even) {
@@ -67,7 +67,6 @@ th.headerCell {
   background-color: #d1d1d1;
   color: #000000;
   font-size: 18px;
-  column-width: auto;
 }
 
 .headerCell.merged {
@@ -75,7 +74,6 @@ th.headerCell {
   background-color: #d1d1d1;
   color: #000000;
   font-size: 18px;
-  column-width: auto;
 }
 
 .headerCell.transposed.dimension.merged {
@@ -85,7 +83,6 @@ th.headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   font-size: 18px;
-  column-width: auto;
 }
 
 .indexCell.transposed {
@@ -106,7 +103,6 @@ th.headerCell {
   border-bottom: 2px solid #000000;
   font-weight: bold;
   font-size: 18px;
-  column-width: auto;
 }
 
 .rowCell.transposed.dimension.merged {
@@ -114,7 +110,6 @@ th.headerCell {
   border-bottom: 2px solid #000000;
   font-weight: bold;
   font-size: 18px;
-  column-width: auto;
 }
 
 .nonNumeric {
@@ -166,12 +161,10 @@ th.headerCell {
     border-left: 1px solid #000000;
     background-color: #E8EAED;
     font-size: 18px;
-    column-width: auto;
 }
 
 .total.transposed {
   border-top: 0px !important;
-  column-width: auto;
 }
 
 .dimension.transposed {
