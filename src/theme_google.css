@@ -53,6 +53,7 @@
 .reportTable {
   font-family: Google Sans,Google Sans Text,Open Sans,Helvetica,Arial,sans-serif;
   table-layout: fixed;
+  width: auto;
 }
 
 #reportTable > tbody > tr:nth-child(even) {
@@ -64,12 +65,14 @@ th.headerCell {
   font-weight: bold;
   background-color: #d1d1d1;
   color: #000000;
+  width: auto;
 }
 
 .headerCell.merged {
   text-align: center !important;
   background-color: #d1d1d1;
   color: #000000;
+  width: auto;
 }
 
 .headerCell.transposed.dimension.merged {
@@ -78,6 +81,7 @@ th.headerCell {
   color: #000000;
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
+  width: auto;
 }
 
 .indexCell.transposed {
@@ -89,27 +93,31 @@ th.headerCell {
 .rowCell {
   vertical-align: super;
   border-bottom: 1px solid #000000;
+  width: auto;
 }
 
 .rowCell.merged {
   background-color: #cccccc;
   border-bottom: 2px solid #000000;
   font-weight: bold;
+  width: auto;
 }
 
 .rowCell.transposed.dimension.merged {
   background-color: #cccccc;
   border-bottom: 2px solid #000000;
   font-weight: bold;
+  width: auto;
 }
 
 .nonNumeric {
   text-align: left;
-  column-width: 200px;
+  width: auto;
 }
 
 .numeric {
   text-align: right;
+  width: auto;
 }
 
 .negative {
